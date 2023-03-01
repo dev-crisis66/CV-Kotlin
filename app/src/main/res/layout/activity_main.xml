@@ -80,7 +80,7 @@
                     android:id="@+id/listView"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    tools:listitem="@layout/list"
+                    tools:listitem="@layout/item_card"
                     />
             </LinearLayout>
 
@@ -100,7 +100,7 @@
                     android:id="@+id/listView2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    tools:listitem="@layout/list"
+                    tools:listitem="@layout/item_card"
                     />
             </LinearLayout>
 

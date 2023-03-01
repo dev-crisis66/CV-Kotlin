@@ -11,7 +11,7 @@ class CustomAdapter(private val context: Activity, private val itemList: ArrayLi
     : BaseAdapter() {
     override fun getView(p0: Int, p1: View?, p2: ViewGroup?): View {
         val inflater = context.layoutInflater
-        val rowView = inflater.inflate(R.layout.list,null)
+        val rowView = inflater.inflate(R.layout.item_card,null)
         val imageView = rowView.findViewById<ImageView>(R.id.image_item)
         val textView = rowView.findViewById<TextView>(R.id.text_item)
         val resourceId = context.resources.getIdentifier(itemList[p0].image, "drawable", context.packageName);
